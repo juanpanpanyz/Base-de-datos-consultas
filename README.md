@@ -38,23 +38,46 @@ ORDER BY `ID_Tienda`;
 
 ## **Segundo Ejercicio**
 Una búsqueda que devuelva algunos registros (+ de 1) pero no todos
+
 ```sql
 SELECT `DNI_D`, `Nombre`
 FROM `Desarolladores`
 ORDER BY `Nombre`;
 ```
+
 ```sql
 SELECT `ID_estudio`, `nombre_estudio`
 FROM `Estudio`
 ORDER BY `nombre_estudio`;
 ```
+
 ```sql
 SELECT `ID_Oficina`, `Oficina`
 FROM `Oficina`
 ORDER BY `Oficina`;
 ```
+
 ```sql
 SELECT `ID_Tienda`, `Nombre`
 FROM `Tiendas`
 ORDER BY `Nombre`;
+```
+
+## **Tercer Ejercicio**
+Una consulta que agregue un nuevo registro
+
+```sql
+INSERT INTO `Desarolladores` (`DNI_D`, `Nombre`) VALUES (`200631`, `Roberto`);
+```
+
+```sql
+INSERT INTO `Estudio` (`ID_estudio`, `nombre_estudio`) VALUES (`28`, `Robertogaming`);
+```
+
+```sql
+INSERT INTO `Oficina` (`ID_Oficina`, `Oficina`) VALUES (`69`, `RobertoOficina`);
+```
+
+```sql
+INSERT INTO `Tienda` (`ID_Tienda`, `Nombre`) VALUES (`19`, `tiendaRoberto`);
 ```
