@@ -14,7 +14,20 @@
 <br>
 
 ## **Primer Ejercicio**
+Una búsqueda que devuelva todos los registros ordenados por una columna
 ```sql
 SELECT DNI_D
 FROM `Desarolladores`
+```
+```sql
+SELECT ID_estudio
+FROM `Estudio`
+```
+```sql
+SELECT ID_Oficina
+FROM `Oficina`
+```
+```sql
+SELECT ID_Tienda
+FROM `Tiendas`
 ```
