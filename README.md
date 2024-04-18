@@ -16,18 +16,45 @@
 ## **Primer Ejercicio**
 Una búsqueda que devuelva todos los registros ordenados por una columna
 ```sql
-SELECT DNI_D
+SELECT *
 FROM `Desarolladores`
+ORDER BY `DNI_D`;
 ```
 ```sql
-SELECT ID_estudio
+SELECT *
 FROM `Estudio`
+ORDER BY `ID_estudio`;
 ```
 ```sql
-SELECT ID_Oficina
+SELECT *
 FROM `Oficina`
+ORDER BY `ID_Oficina`;
 ```
 ```sql
-SELECT ID_Tienda
+SELECT *
 FROM `Tiendas`
+ORDER BY `ID_Tienda`;
+```
+
+## **Segundo Ejercicio**
+Una búsqueda que devuelva algunos registros (+ de 1) pero no todos
+```sql
+SELECT `DNI_D`, `Nombre`
+FROM `Desarolladores`
+ORDER BY `Nombre`;
+```
+```sql
+SELECT `ID_estudio`, `nombre_estudio`
+FROM `Estudio`
+ORDER BY `nombre_estudio`;
+```
+```sql
+SELECT `ID_Oficina`, `Oficina`
+FROM `Oficina`
+ORDER BY `Oficina`;
+```
+```sql
+SELECT `ID_Tienda`, `Nombre`
+FROM `Tiendas`
+ORDER BY `Nombre`;
 ```
